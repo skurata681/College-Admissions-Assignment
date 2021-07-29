@@ -108,48 +108,6 @@ double get_dem_interest(string data){
     return dem_interest;
 }
 
-// TODO: DELETE
-//void set_values(string data) {
-//    string str_gpa = "";
-//    string str_sat = "";
-//    string str_curr_strength = "";
-//    string str_dem_interest = "";
-//
-//    int comma_count = 0;
-//    for (int i = 0; i < data.size(); i++) {
-//        // check if comma, skip to next character
-//        if (data.at(i) == ',') {
-//            comma_count++;
-//            i++;
-//        }
-//        // add characters to appropriate variables
-//        if (comma_count == 0) {
-//            student_id += data.at(i);
-//        }
-//        else if (comma_count == 1) {
-//            str_gpa += data.at(i);
-//        }
-//        else if (comma_count == 2) {
-//            str_sat += data.at(i);
-//        }
-//        else if (comma_count == 3) {
-//            str_curr_strength += data.at(i);
-//        }
-//        else if (comma_count == 4) {
-//            str_dem_interest += data.at(i);
-//        }
-//    }
-//
-//    // convert numeric variables to double
-//    gpa = stod(str_gpa);
-//    sat = stod(str_sat);
-//    curr_strength = stod(str_curr_strength);
-//    dem_interest = stod(str_dem_interest);
-//
-//    return;
-//}
-// TODO: UP TO THIS POINT
-
 
 double normalize_gpa(double original_gpa) {
     // to get GPA on scale 10, mult. by 2
