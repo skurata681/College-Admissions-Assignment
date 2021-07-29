@@ -14,12 +14,12 @@ using namespace std;
 // nor at the end
 
 
-    /**
-    * Requires: Five comma separated numeric values (of any length) representing prospective student data in
-             the order: StudentID,GPA,SAT,CurriculumStrength,DemonstratedInterest.
-    * Modifies: Nothing.
-    * Effects: Returns the first value (studentID) as a string.
-    */
+/**
+* Requires: Five comma separated numeric values (of any length) representing prospective student data in
+         the order: StudentID,GPA,SAT,CurriculumStrength,DemonstratedInterest.
+* Modifies: Nothing.
+* Effects: Returns the first value (studentID) as a string.
+*/
 string get_studentID(string data);
 
 
@@ -61,20 +61,6 @@ double get_curr_strength(string data);
        Hint: use string-to-double function: stod().
 */
 double get_dem_interest(string data);
-
-
-// TODO: DELETE
-/**
-* Requires: Five comma separated values representing prospective student data in the order:
-         StudentID,GPA,SAT,CurriculumStrength,DemonstratedInterest.
-* Modifies: Nothing.
-* Effects: Assigns each value to a variable to be called elsewhere in the program and converts each value
-       (except StudentID) to a double type. Note: string.size() and string.at(), and string-to-double stod()
-       may be helpful here!
-*/
-//void set_values(string data);
-
-// TODO: UP TO THIS POINT
 
 
 /**
